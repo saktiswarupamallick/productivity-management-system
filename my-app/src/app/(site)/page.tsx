@@ -2,7 +2,7 @@ import React from "react";
 import TitleSection from '@/components/landing-page/title-section';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-
+import Banner from '../../../public/appBanner.png';
 
 const HomePage = () => {
   return (
