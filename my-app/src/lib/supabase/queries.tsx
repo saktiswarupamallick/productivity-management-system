@@ -13,4 +13,4 @@ export const getUserSubscriptionStatus = async (userId: string) => {
       console.log(error);
       return { data: null, error: `Error` };
     }
-  };
+  };          
