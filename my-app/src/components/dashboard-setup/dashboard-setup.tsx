@@ -61,7 +61,7 @@ const DashboardSetup: React.FC<DashboardSetupProps> = ({
 
     if (file) {
       try {
-        const { data, error } = await supabase.storage
+        const { data,error } = await supabase.storage
           .from('workspace-logos')
           .upload(`workspaceLogo.${workspaceUUID}`, file, {
             cacheControl: '3600',
