@@ -46,7 +46,7 @@ const DashboardSetup: React.FC<DashboardSetupProps> = ({
   } = useForm<z.infer<typeof CreateWorkspaceFormSchema>>({
     mode: 'onChange',
     defaultValues: {
-      logo: '',
+      logo:'',
       workspaceName: '',
     },
   });
