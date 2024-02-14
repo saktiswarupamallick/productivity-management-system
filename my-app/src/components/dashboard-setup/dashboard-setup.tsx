@@ -1,5 +1,5 @@
 'use client';
-import { AuthUser } from '@supabase/supabase-js';
+import { AuthUser} from '@supabase/supabase-js';
 import React, { useState } from 'react';
 import { FieldValues, SubmitHandler, useForm } from 'react-hook-form';
 import { v4 } from 'uuid';
